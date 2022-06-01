@@ -1,0 +1,87 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Assignments</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>		 
+		h3 {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 15px 0;
+            color: #fff;
+		}
+		.table {
+			margin-top: 20px;
+			counter-reset: section;
+		}
+		th {
+			background-color: #212529;
+			color: #fff;
+		}
+		.table tbody tr td:first-child::before {
+			counter-increment: section;
+			content: counter(section);
+		}
+		
+	</style>
+</head>
+
+<body>
+	<header class="bg-primary">
+		<h3 class="text-center">Assignments</h3>
+	</header>
+	<main>
+		<div class="container">
+            <div class="col-md-6 mx-auto">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Assignment Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/subject_marks_percentage.php">find their total , percentage and grade</a></td>
+                        </tr>
+                        <tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/number_table.php">Numbertable upto 10</a></td>
+                        </tr>
+                        <tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/odd_number_1_to_100.php">odd numbers between 1 to 100</a></td>
+                        </tr>
+                        <tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/Armstrong_number.php">armstrong number or not</a></td>
+                        </tr>
+						<tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/array_larg_small_no.php"> find the largest and smallest value</a></td>
+                        </tr>
+						<tr>
+							<td></td>
+                            <td><a href="./PHP_Assignments/findno_in array.php">value is present in array or not</a></td>
+                        </tr>
+						
+					
+					</tbody>
+				</table>
+			</div>
+        </div>
+		</div>
+	</main>
+</body>
+
+</html>
